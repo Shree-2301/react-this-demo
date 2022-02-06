@@ -5,6 +5,7 @@ import EventBind from "./EventBind";
 import ParentComponent from "./PrentComponent";
 import UserGreeting from "./UserGreeting";
 import NameList from "./NameList";
+import Form from "./Form";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -13,7 +14,8 @@ ReactDOM.render(
     {/* <ParentComponent /> */}
     {/* <UserGreeting /> */}
     {/* <Calculator /> */}
-    <NameList />
+    {/* <NameList /> */}
+    <Form />
   </StrictMode>,
   rootElement
 );
