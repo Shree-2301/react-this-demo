@@ -4,6 +4,7 @@ import Calculator from "./Calculator";
 import EventBind from "./EventBind";
 import ParentComponent from "./PrentComponent";
 import UserGreeting from "./UserGreeting";
+import NameList from "./NameList";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -11,7 +12,8 @@ ReactDOM.render(
     {/* <EventBind /> */}
     {/* <ParentComponent /> */}
     {/* <UserGreeting /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    <NameList />
   </StrictMode>,
   rootElement
 );
