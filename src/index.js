@@ -6,6 +6,7 @@ import ParentComponent from "./PrentComponent";
 import UserGreeting from "./UserGreeting";
 import NameList from "./NameList";
 import Form from "./Form";
+import LifeCycleA from "./LifeCycleA";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -15,7 +16,8 @@ ReactDOM.render(
     {/* <UserGreeting /> */}
     {/* <Calculator /> */}
     {/* <NameList /> */}
-    <Form />
+    {/* <Form /> */}
+    <LifeCycleA />
   </StrictMode>,
   rootElement
 );
